@@ -21,3 +21,13 @@ button{
 button:hover{
     background-color: green;
 }
+
+.qoute{
+    width: 80%;
+}
+
+@media screen and (max-width: 776px){
+    .qoute{
+        width: 100%;
+    }
+}

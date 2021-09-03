@@ -1,55 +1,60 @@
  
  var quote = document.getElementById("quote");
 
+
+ var qoutes =[` “I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.” <br>
+ ― Marilyn Monroe `, `“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.” <br>
+ ― Albert Einstein `, `“So many books, so little time.” <br>
+ ― Frank Zappa `, `“A room without books is like a body without a soul.” <br>
+ ― Marcus Tullius Cicero`,` “Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.” <br>
+ ― Bernard M. Baruch `, ` “You've gotta dance like there's nobody watching, <br>
+ Love like you'll never be hurt,<br>
+ Sing like there's nobody listening, <br>
+ And live like it's heaven on earth.”<br>
+ ― William W. Purkey `, `“You know you're in love when you can't fall asleep because reality is finally better than your dreams.” <br>
+ ― Dr. Seuss`, ` “You only live once, but if you do it right, once is enough.” <br>
+ ― Mae West `, ` “Be the change that you wish to see in the world.” <br>
+ ― Mahatma Gandhi `, ` “In three words I can sum up everything I've learned about life: it goes on.” <br>
+ ― Robert Frost `
+
+]
+
  function newQuote(){
-     var x = Math.floor(Math.random() * 10);
+     var x = Math.floor(Math.random() * qoutes.length );
 
      
      console.log(x);
 
      switch (x) {
          case 1:
-             quote.innerHTML =` “I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.” <br>
-             ― Marilyn Monroe `
+             quote.innerHTML = qoutes[0];
              break;
          case 2:
-             quote.innerHTML =`“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.” <br>
-             ― Albert Einstein `
+             quote.innerHTML = qoutes[1]
              break;
          case 3:
-             quote.innerHTML =`“So many books, so little time.” <br>
-             ― Frank Zappa `
+             quote.innerHTML = qoutes[2]
              break;
          case 4:
-             quote.innerHTML =`“A room without books is like a body without a soul.” <br>
-             ― Marcus Tullius Cicero`
+             quote.innerHTML = qoutes[3]
              break;
          case 5:
-             quote.innerHTML =` “Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.” <br>
-             ― Bernard M. Baruch `
+             quote.innerHTML = qoutes[4]
              break;
          case 6:
-             quote.innerHTML =` “You've gotta dance like there's nobody watching, <br>
-             Love like you'll never be hurt,<br>
-             Sing like there's nobody listening, <br>
-             And live like it's heaven on earth.”<br>
-             ― William W. Purkey `
+             quote.innerHTML = qoutes[5]
              break;
          case 7:
-             quote.innerHTML =`“You know you're in love when you can't fall asleep because reality is finally better than your dreams.” <br>
-             ― Dr. Seuss`
+             quote.innerHTML = qoutes[6]
              break;
          case 8:
-             quote.innerHTML =` “You only live once, but if you do it right, once is enough.” <br>
-             ― Mae West `
+             quote.innerHTML = qoutes[7]
              break;
          case 9:
-             quote.innerHTML =` “Be the change that you wish to see in the world.” <br>
-             ― Mahatma Gandhi `
+             quote.innerHTML = qoutes[8]
              break;
          case 10:
-             quote.innerHTML =` “In three words I can sum up everything I've learned about life: it goes on.” <br>
-             ― Robert Frost `
+             quote.innerHTML = qoutes[9]
              break;
          
          default:
