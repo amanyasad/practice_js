@@ -25,39 +25,14 @@
      
      console.log(x);
 
-     switch (x) {
-         case 1:
-             quote.innerHTML = qoutes[0];
-             break;
-         case 2:
-             quote.innerHTML = qoutes[1]
-             break;
-         case 3:
-             quote.innerHTML = qoutes[2]
-             break;
-         case 4:
-             quote.innerHTML = qoutes[3]
-             break;
-         case 5:
-             quote.innerHTML = qoutes[4]
-             break;
-         case 6:
-             quote.innerHTML = qoutes[5]
-             break;
-         case 7:
-             quote.innerHTML = qoutes[6]
-             break;
-         case 8:
-             quote.innerHTML = qoutes[7]
-             break;
-         case 9:
-             quote.innerHTML = qoutes[8]
-             break;
-         case 10:
-             quote.innerHTML = qoutes[9]
-             break;
-         
-         default:
-             break;
-     }
+    quote.innerHTML = qoutes[x];
  }
+
+
+
+
+
+
+ 
+
+ 
